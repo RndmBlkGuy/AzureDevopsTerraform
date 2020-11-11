@@ -23,7 +23,7 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'Dmwilliams928 Docker hub'
-        repository: 'dmwilliams/weatherapi'
+        repository: 'dmwilliams928/weatherapi'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: |
